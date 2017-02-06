@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Личный сайт студента GeekBrains</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="script.js">     </script>
+</head>
+<body>
+    <div id="content">
+        <div id="header">
+            <a href="index.html">Главная</a> <span>/</span>
+            <a href="puzzle.html">Загадки</a> <span>/</span>
+            <a href="guess-1.html">Игра "Угадай_число" </a> <span>/</span>
+            <a href="guess-2.html">Игра "Угадай_число" мультиплеер</a>
+        </div>
+        <h1>Загадки</h1>
+        <div id="center"> 
+            <div id="box">
+              <!-- php 
+               $userAnswer1 = $_GET['userAnswer1'];
+               if ($userAnswer1 == 'доллар' || $userAnswer1 == 'dollar') {
+               	echo 'Первый вопрос - правильно.';
+               	$score++;
+
+               	} else {
+               		echo ' Первый вопрос - не правильно';
+               	}
+
+               	echo '<br>';
+
+                $userAnswer2 = $_GET['userAnswer2'];
+               if ($userAnswer2 == 'рубль' || $userAnswer2 == 'rubl') {
+               	echo 'Второй вопрос - правильно.';
+               	$score++;
+
+               	} else {
+               		echo ' Второй вопрос - не правильно';
+               	}
+
+               	echo '<br><br>';
+               	echo 'Right answers: '. $score;
+               ?>
+               --> 
+
+             
+              <p>валюта сша? </p>
+               <input type="text" id="userAnswer1">
+               <p>валюта РФ? </p>
+               <input type="text" id="userAnswer2">
+                <br><br>
+                <a href="#" onclick="playpuzzle()">ответить</a>
+              
+
+
+            </div>
+        </div>
+    </div>
+    <div id="footer">Copyright © 2016 <a href="https://geekbrains.ru/" target="_blank">GeekBrains</a></div>
+</body>
+
+</html>
